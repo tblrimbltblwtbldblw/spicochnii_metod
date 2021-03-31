@@ -1,0 +1,1 @@
+print(*([int(c) ** 2 for c in input().split() if int(c) % 2 == 0 and int(c) ** 2 % 10 != 4]))
